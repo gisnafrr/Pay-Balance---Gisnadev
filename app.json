@@ -14,7 +14,8 @@
     "updates": {
       "enabled": true,
       "checkAutomatically": "ON_LOAD",
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/96c4b4b1-f528-46a6-980c-7bf7d75731d3"
     },
     "splash": {
       "backgroundColor": "#6D28D9"
@@ -37,7 +38,16 @@
         "USE_FINGERPRINT",
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT",
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
       ]
     },
     "web": {
@@ -57,7 +67,13 @@
     ],
     "extra": {
       "author": "gisnadev",
-      "license": "MIT"
+      "license": "MIT",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "96c4b4b1-f528-46a6-980c-7bf7d75731d3"
+      }
     },
     "experiments": {
       "typedRoutes": false
